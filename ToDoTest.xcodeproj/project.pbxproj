@@ -8,6 +8,7 @@
 
 /* Begin PBXFileReference section */
 		C866EF492CEFC7C100ADA426 /* ToDoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C866EFC12CEFEA2C00ADA426 /* Decomposition.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Decomposition.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -45,6 +46,7 @@
 		C866EF402CEFC7C100ADA426 = {
 			isa = PBXGroup;
 			children = (
+				C866EFBD2CEFE9AF00ADA426 /* doc */,
 				C866EF4B2CEFC7C100ADA426 /* ToDoTest */,
 				C866EF4A2CEFC7C100ADA426 /* Products */,
 			);
@@ -56,6 +58,14 @@
 				C866EF492CEFC7C100ADA426 /* ToDoTest.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C866EFBD2CEFE9AF00ADA426 /* doc */ = {
+			isa = PBXGroup;
+			children = (
+				C866EFC12CEFEA2C00ADA426 /* Decomposition.md */,
+			);
+			path = doc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +160,6 @@
 				INFOPLIST_FILE = ToDoTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -183,7 +192,6 @@
 				INFOPLIST_FILE = ToDoTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
