@@ -8,7 +8,9 @@
 import Foundation
 
 struct ToDoData {
-    let id: Int
+    let todo: String
+    let description: String
+    let isCompleted: Bool
 }
 
 final class MainScreenPresenter: MainScreenViewOutputProtocol {
@@ -19,12 +21,16 @@ final class MainScreenPresenter: MainScreenViewOutputProtocol {
         self.view = view
     }
     
+    func fetchTodos() {
+        interactor.fetchTasks()
+    }
+    
 }
 
 //MARK: - MainScreenInteractorOutputProtocol
 extension MainScreenPresenter: MainScreenInteractorOutputProtocol {
     func didFetchTasks(_ tasks: [ToDoData]) {
-        
+        view.displayTodos(tasks)
     }
     
     
